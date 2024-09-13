@@ -29,13 +29,4 @@ planner_server:
       use_quadratic_cost_penalty: True
       downsample_obstacle_heuristic: True
       allow_primitive_interpolation: False
-      smooth_path: True                   # If true, does a simple and quick smoothing post-processing to the path
-    
-      smoother:
-        max_iterations: 1000
-        w_smooth: 0.3
-        w_data: 0.2
-        tolerance: 1.0e-10
-        do_refinement: true
-        refinement_num: 2
-        refinement_num: 2
+      smooth_path: False                   # If true, does a simple and quick smoothing post-processing to the path
