@@ -1,6 +1,6 @@
 /**: # in all namespaces, all nodes
     ros__parameters:
-      footprint: "[ [0.725, 0.525], [0.725, -0.525], [-0.725, -0.525], [-0.725, 0.525] ]"
+      footprint: "[ [0.935, 0.23], [0.935, -0.23], [-0.935, -0.23], [-0.935, 0.23] ]"
       # robot_radius: 0.525
       footprint_padding: 0.12
 
